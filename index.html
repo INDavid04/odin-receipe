@@ -3,18 +3,35 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
     <title>Odin Receipe</title>
 </head>
 <body>
-    <h1>
-        <a href="./">Odin Recipes</a> by 
-        <a href="https://github.com/INDavid04">INDavid04</a>
+    <h1 class="title">
+        <a class="header logo" href="./">OdinRecip</a> 
+        <div class="header" id="connector">by</div> 
+        <a class="header link" href="https://github.com/INDavid04">INDavid04</a>
     </h1>
-    <h2>Go to</h2>
-    <ul>
-        <li><a href="./go/pasta.html">Pasta receipe</a></li>
-        <li><a href="./go/pizza.html">Pizza receipe</a></li>
-        <li><a href="./go/rice.html">Rice receipe</a></li>
+    <h2 class="NavigationTitle">Go to</h2>
+    <ul class="NavigationContainer db">
+        <li class="Navigation db">
+            <a class="NavigationLink db" href="./go/pasta.html">
+                <img src="./img/odin-pasta.jpeg" width="100px" height="auto" class="clip-inset">
+                <p class="NavigationText db">Pasta recipe</p>
+            </a>
+        </li>
+        <li class="Navigation">
+            <a class="NavigationLink" href="./go/pizza.html">
+                <img src="./img/odin-pizza.jpeg" width="100px" height="auto">
+                <p class="NavigationText">Pizza recipe</p>
+            </a>
+        </li>
+        <li class="Navigation">
+            <a class="NavigationLink" href="./go/rice.html">
+                <img src="./img/odin-rice.jpeg" width="100px" height="auto">
+                <p class="NavigationText">Rice recipe</p>
+            </a>
+        </li>
     </ul>
 </body>
 </html>

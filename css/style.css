@@ -1,0 +1,100 @@
+body {
+  background-color: #1e1e58;
+  color: #f2f2f2;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.db {
+  border: 1px dotted pink;
+}
+
+.clip-inset {
+  -webkit-clip-path: inset(2.23rem 0 5rem 0);
+          clip-path: inset(2.23rem 0 5rem 0);
+}
+
+.title {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.header {
+  font-size: 3rem;
+  text-decoration: none;
+}
+
+.header.logo {
+  color: hsl(120, 34%, 34%);
+}
+
+.header.logo:hover {
+  color: hsl(120, 70%, 34%);
+}
+
+.header#connector {
+  color: hsl(0, 10%, 70%);
+}
+
+.header.link {
+  color: hsl(0, 34%, 34%);
+}
+
+.header.link:hover {
+  color: hsl(0, 70%, 34%);
+}
+
+.NavigationTitle {
+  margin: 4rem 0;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.NavigationContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 90vw;
+  max-width: 1080px;
+}
+@media (min-width: 720px) {
+  .NavigationContainer {
+    flex-direction: row;
+  }
+}
+
+.Navigation {
+  list-style-type: none;
+}
+@media (min-width: 720px) {
+  .Navigation {
+    width: 100%;
+  }
+}
+
+.NavigationLink {
+  text-decoration: none;
+  color: hsl(0, 70%, 34%);
+}
+
+.NavigationLink img {
+  width: 80vw;
+  height: auto;
+}
+@media (min-width: 540px) {
+  .NavigationLink img {
+    width: 40vw;
+    height: auto;
+  }
+}
+@media (min-width: 720px) {
+  .NavigationLink img {
+    width: 88%;
+  }
+}
+
+.NavigationText {
+  margin-top: -0.1rem;
+  text-align: center;
+}/*# sourceMappingURL=style.css.map */
